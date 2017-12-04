@@ -1,0 +1,50 @@
+# Problem 6 Boot Camp Time
+
+Given a time given as a String in numerical format, convert that value into its military time phrase.
+
+**Complete in Java**
+
+**Provide Unit Testing**
+
+Example 1 Input
+```
+1:30 pm 
+```
+
+Example 1 Output
+```
+Thirteen Hundred and Thirty Hours
+```
+
+
+Example 2 Input
+```
+1:30 am
+```
+
+Example 2 Output 
+
+```
+Zero One Hundred and Thirty Hours
+```
+
+Example 3 Input 
+```
+2:22 pm
+```
+Example 3 Output
+
+```
+Fourteen Hundred and Twenty Two Hours
+```
+
+Example 4 Input
+```
+2:11 am
+```
+
+Example 4 Output
+```
+Zero Two Hundred and Eleven Hours
+```
+
