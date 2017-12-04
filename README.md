@@ -55,3 +55,14 @@ Example 4 Output
 Zero Two Hundred and Eleven Hours
 ```
 
+Example 5 Input
+
+```
+10:02am
+```
+
+Example 5 Output
+
+```
+Ten Hundred Zero Two Hours
+```
