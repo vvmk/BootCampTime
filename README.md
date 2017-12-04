@@ -7,19 +7,22 @@ Given a time given as a String in numerical format, convert that value into its 
 **Provide Unit Testing**
 
 Example 1 Input
+
 ```
-1:30 pm 
+1:30pm 
 ```
 
 Example 1 Output
+
 ```
 Thirteen Hundred and Thirty Hours
 ```
 
 
 Example 2 Input
+
 ```
-1:30 am
+1:30am
 ```
 
 Example 2 Output 
@@ -29,9 +32,11 @@ Zero One Hundred and Thirty Hours
 ```
 
 Example 3 Input 
+
 ```
-2:22 pm
+2:22pm
 ```
+
 Example 3 Output
 
 ```
@@ -39,11 +44,13 @@ Fourteen Hundred and Twenty Two Hours
 ```
 
 Example 4 Input
+
 ```
-2:11 am
+2:11am
 ```
 
 Example 4 Output
+
 ```
 Zero Two Hundred and Eleven Hours
 ```
