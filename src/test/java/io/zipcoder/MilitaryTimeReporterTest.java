@@ -43,7 +43,7 @@ class MilitaryTimeReporterTest {
         String input = "05:34";
 
         String expected = "ZERO FIVE HUNDRED THIRTY FOUR HOURS";
-        String actual = MilitaryTimeReporter.reportTime(input);
+        String actual = MilitaryTimeReporter.wordifyMilitaryTime(input);
 
         assertEquals(expected, actual);
     }
@@ -53,7 +53,7 @@ class MilitaryTimeReporterTest {
         String input = "23:58";
 
         String expected = "TWENTY THREE HUNDRED FIFTY EIGHT HOURS";
-        String actual = MilitaryTimeReporter.reportTime(input);
+        String actual = MilitaryTimeReporter.wordifyMilitaryTime(input);
 
         assertEquals(expected, actual);
     }
@@ -63,7 +63,7 @@ class MilitaryTimeReporterTest {
         String input = "12:47";
 
         String expected = "TWELVE HUNDRED FORTY SEVEN HOURS";
-        String actual = MilitaryTimeReporter.reportTime(input);
+        String actual = MilitaryTimeReporter.wordifyMilitaryTime(input);
 
         assertEquals(expected, actual);
     }

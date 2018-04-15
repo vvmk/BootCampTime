@@ -7,6 +7,7 @@ package io.zipcoder;
  * date: 4/15/18
  */
 public enum NumberString {
+    ZERO(0),
     ONE(1),
     TWO(2),
     THREE(3),
@@ -31,17 +32,17 @@ public enum NumberString {
     FORTY(40),
     FIFTY(50);
 
-    private int digit;
+    private Integer digit;
 
-    NumberString(int digit) {
+    NumberString(Integer digit) {
         this.digit = digit;
     }
 
-    public static String getStringForDigit(int match) throws RuntimeException {
+    public static String getStringForDigit(Integer match) throws RuntimeException {
         for (NumberString ns : NumberString.values()) {
-            if (ns.digit == match)
-                return ns.toString();
+            if (ns.digit.equals(match))
+                return ns.toString() + " ";
         }
-        throw new RuntimeException();
+        throw new RuntimeException("error finding string for : " + match);
     }
 }
